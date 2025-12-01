@@ -78,7 +78,7 @@ export const LoginForm: React.FC = () => {
 
         <div style={{ textAlign: 'center', marginTop: 16 }}>
           <Text type="secondary" style={{ fontSize: 12 }}>
-            Для демонстрации используйте: admin / password
+            Для восстановления учетной записи обратитесь к администратору.
           </Text>
         </div>
       </Card>
