@@ -155,7 +155,7 @@ const Schema: React.FC = () => {
           },
         }}
         hoverable>
-        <Title level={3} style={{ textAlign: 'center', marginBottom: '32px' }}>
+        <Title level={3} style={{ textAlign: 'center', marginBottom: '32px', color: '#000.8' }}>
           Прямой поток: передача данных о программах
         </Title>
         <Row gutter={[32, 32]} align="middle">
@@ -333,7 +333,7 @@ const Schema: React.FC = () => {
 
         {/* Обратный поток */}
         <Divider />
-        <Title level={3} style={{ textAlign: 'center', marginBottom: '32px', color: '#ff4d4f' }}>
+        <Title level={3} style={{ textAlign: 'center', marginBottom: '32px', color: '#000.8' }}>
           Обратный поток: обработка записей пользователей
         </Title>
         <Row gutter={[32, 32]} align="middle">
@@ -364,9 +364,7 @@ const Schema: React.FC = () => {
           </Col>
 
           <Col span={1} style={{ textAlign: 'center' }}>
-            <ArrowRightOutlined
-              style={{ fontSize: '24px', color: '#ff4d4f', transform: 'rotate(180deg)' }}
-            />
+            <ArrowRightOutlined style={{ fontSize: '24px', color: '#ff4d4f' }} />
           </Col>
 
           <Col span={5} style={{ textAlign: 'center' }}>
@@ -396,11 +394,8 @@ const Schema: React.FC = () => {
           </Col>
 
           <Col span={1} style={{ textAlign: 'center' }}>
-            <ArrowRightOutlined
-              style={{ fontSize: '24px', color: '#ff4d4f', transform: 'rotate(180deg)' }}
-            />
+            <ArrowRightOutlined style={{ fontSize: '24px', color: '#ff4d4f' }} />
           </Col>
-
           <Col span={5} style={{ textAlign: 'center' }}>
             <Card
               size="small"
@@ -428,9 +423,7 @@ const Schema: React.FC = () => {
           </Col>
 
           <Col span={1} style={{ textAlign: 'center' }}>
-            <ArrowRightOutlined
-              style={{ fontSize: '24px', color: '#ff4d4f', transform: 'rotate(180deg)' }}
-            />
+            <ArrowRightOutlined style={{ fontSize: '24px', color: '#ff4d4f' }} />
           </Col>
 
           <Col span={5} style={{ textAlign: 'center' }}>
